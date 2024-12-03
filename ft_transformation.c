@@ -6,7 +6,7 @@
 /*   By: mkayaalp <mkayaalp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 12:42:38 by mkayaalp          #+#    #+#             */
-/*   Updated: 2024/11/30 16:54:40 by mkayaalp         ###   ########.fr       */
+/*   Updated: 2024/12/03 17:12:07 by mkayaalp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,8 @@ int	ft_print_str(char *s)
 	}
 	while (*s != '\0')
 	{
-		ft_print_char(*s);
+		if (ft_print_char(*s) == -1)
+			return (-1);
 		s++;
 		len++;
 	}

@@ -6,12 +6,11 @@
 /*   By: mkayaalp <mkayaalp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 11:04:45 by mkayaalp          #+#    #+#             */
-/*   Updated: 2024/12/03 16:08:50 by mkayaalp         ###   ########.fr       */
+/*   Updated: 2024/12/03 17:10:31 by mkayaalp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 
 int	ft_len_hex(unsigned long n)
 {
