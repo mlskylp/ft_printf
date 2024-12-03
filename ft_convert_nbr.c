@@ -6,12 +6,11 @@
 /*   By: mkayaalp <mkayaalp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 15:36:41 by mkayaalp          #+#    #+#             */
-/*   Updated: 2024/12/02 16:38:15 by mkayaalp         ###   ########.fr       */
+/*   Updated: 2024/12/03 17:13:10 by mkayaalp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 #include <unistd.h>
 
 int	ft_putnbr(long n)

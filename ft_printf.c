@@ -6,13 +6,12 @@
 /*   By: mkayaalp <mkayaalp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 12:26:19 by mkayaalp          #+#    #+#             */
-/*   Updated: 2024/12/03 16:12:30 by mkayaalp         ###   ########.fr       */
+/*   Updated: 2024/12/03 17:13:19 by mkayaalp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include <stdarg.h>
-#include <stdio.h>
 #include <unistd.h>
 
 static int	ft_transformation(char a, va_list args)
