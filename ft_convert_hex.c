@@ -6,7 +6,7 @@
 /*   By: mkayaalp <mkayaalp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 11:04:45 by mkayaalp          #+#    #+#             */
-/*   Updated: 2024/12/03 17:10:31 by mkayaalp         ###   ########.fr       */
+/*   Updated: 2024/12/03 18:15:02 by mkayaalp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,9 +57,7 @@ int	ft_convert_to_hex(void *args)
 		return (-1);
 	len = ft_len_hex((unsigned long)args);
 	ft_hex((unsigned long)args);
-	if (len != 0)
-		return (len + 2);
-	return (3);
+	return (len + 2);
 }
 
 int	ft_hex_lower(unsigned int n, char a, char *base_16)
