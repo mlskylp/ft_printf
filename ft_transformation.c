@@ -6,20 +6,11 @@
 /*   By: mkayaalp <mkayaalp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 12:42:38 by mkayaalp          #+#    #+#             */
-/*   Updated: 2024/12/03 17:12:07 by mkayaalp         ###   ########.fr       */
+/*   Updated: 2024/12/03 17:40:10 by mkayaalp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-
-void	ft_putstr(char *s)
-{
-	while (*s != '\0')
-	{
-		write(1, s, 1);
-		s++;
-	}
-}
 
 int	ft_print_char(char c)
 {
