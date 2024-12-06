@@ -6,7 +6,7 @@
 /*   By: mkayaalp <mkayaalp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 12:26:19 by mkayaalp          #+#    #+#             */
-/*   Updated: 2024/12/03 17:13:19 by mkayaalp         ###   ########.fr       */
+/*   Updated: 2024/12/04 12:29:56 by mkayaalp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,4 +71,3 @@ int	ft_printf(const char *n, ...)
 	}
 	return (va_end(args), len);
 }
-//(*n == '%' && format_check(*(n + 1)) == -1) ||
